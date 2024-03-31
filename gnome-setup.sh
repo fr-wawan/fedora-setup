@@ -1,4 +1,4 @@
-sudo dnf install adw-gtk3 -y
+sudo dnf install adw-gtk3-theme -y
 
 gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3-dark' && gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
