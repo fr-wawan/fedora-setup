@@ -2,7 +2,7 @@
 
 cd ~/
 
-sudo dnf install httpd php php-cli php-php-gettext php-mbstring php-mcrypt php-mysqlnd php-pear php-curl php-gd php-xml php-bcmath php-zip php-fpm php-pgsql -y mariadb-server nodejs -y
+sudo dnf install httpd php php-cli php-php-gettext php-mbstring php-mcrypt php-mysqlnd php-pear php-curl php-gd php-xml php-bcmath php-zip php-fpm php-pgsql mariadb-server nodejs -y
 
 sudo systemctl start httpd
 
